@@ -1,0 +1,98 @@
+.red{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+    border-radius: 20px;
+    border: 10px black solid;
+}
+.green{
+
+background-color:green;
+height: 200px;
+width: 200px;
+
+border-radius: 20px;
+    border: 10px black solid;
+}
+.blue{
+    border-radius: 20px;
+    padding-left: 0;
+    
+    
+
+    background-color:blue;
+    height: 200px;
+    width: 200px;
+    border: 10px black solid;
+}
+.btn{
+    border-radius: 20%;
+    
+    
+    margin: 1.5rem;
+
+
+        /* background-color:yellow; */
+        height: 200px;
+        width: 200px;
+        border: 10px black solid;
+}
+.fline{
+    display: flex;
+    
+}
+.sline{
+    display: flex;
+    
+}
+*{
+    text-align: center;
+    justify-content: center;
+
+}
+#red{
+    background-color: #D3756B;
+}
+#blue{
+    background-color: #A0C3D2;
+}
+#green{
+    background-color: #61876E;
+}
+#yellow{
+    background-color: #EAE7B1;
+}
+h3{
+    font-size: 35px;
+    font-family: 'Crimson Pro', serif;
+}
+h4{
+    font-size: 25px;
+    color: none;
+    
+}
+
+.flash {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.mod{
+    background-color: red;
+}
+
+ .backg{
+    background-color: red;
+ }
